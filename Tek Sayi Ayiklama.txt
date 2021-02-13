@@ -1,0 +1,16 @@
+hak = 10#Kullanıcıya 10 tane sayı girmesi için hak tanıdım
+numbers = []#Sayıların hepsini buraya atacak
+teksayi= []#tek sayıları daha sonra buraya atacak
+while hak >0:#döngümü başlattım
+    hak-=1#hak her zaman 1 eksilecek
+    sayi=int(input("Lütfen sayı giriniz"))#kullanıcıdan sayı girmesi için değer istedim
+    numbers.append(sayi)#girilen sayıları numbers a ekledim
+    a = numbers.sort()#numbers ı sıraladım
+    if sayi%2==1:#tek olma koşulunu gösterdim
+        teksayi.append(sayi)#tek olan sayıları teksayiya eklettirdim
+        max(teksayi)#teksayiların en buyugunu buldum
+
+print(f"Girdiğiniz sayıların küçükten büyüğe sıralanmış hali budur: {numbers}")#Format ile numbers i yazdırdım
+print(f"Girilen tek sayılar bunlardır: {teksayi}")#Format ile teksayiyi yazdırdım
+print(f"Girdiğiniz sayıların içerisinden en büyük değer: {max(numbers)}")#Format ile maxnumbers i yazdırdım
+print(f"Girdiğiniz sayılar içerisinden en büyük tek sayı ise:{max(teksayi)} ")#Format ile max teksayiyi yazdırdım.
