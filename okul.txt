@@ -1,0 +1,34 @@
+class Teacher ():
+    def __init__(self,ad,evren,guc):
+        self.ad = ad
+        self.evren = evren
+        self.guc = guc
+superman = Teacher("Clark Kent","DC","Ucuyor")
+batman = Teacher("Bruce Wayne","DC","Havalı gözükmek")
+spider_man = Teacher("Peter Parker","Marvel","Örümcekleşiyor")
+iron_man= Teacher("Tony Stark","Marvel","Dünyayı kurtarmak")
+deadpool = Teacher("Wayne Wilson","Marvel","İyileşiyor")
+thor = Teacher("Thor","Marvel","Tanrı")
+cuneytArkin = Teacher("Cüneyt Arkın","Yeşilçam","havalı adam dövmek")
+dscgazi = Teacher("Dsc Gazi","DSC","Bilgiyle insanları korumak")
+
+class Student ():
+    def __init__(self,isim,yas):
+        self.isim =isim
+        self.yas = yas
+s1 = Student ("Ali Mağrur","16")
+s2 = Student ("Veli Ananas","14")
+s3 = Student ("Mustafa bilgiç","16")
+s4 = Student ("Mert  Bayrak","16")
+s5 = Student ("Kurtuluş Baki","16")
+
+class Gorevliler ():
+    def __init__(self,serino,enerji):#Gorevliler robot
+        self.serino = serino
+        self.enerji = enerji
+r1 = Gorevliler ("01","full")
+r2 = Gorevliler ("02","Yarım")
+r3 = Gorevliler ("03","Enerji gerek")
+r4 = Gorevliler ("04","0")
+
+
