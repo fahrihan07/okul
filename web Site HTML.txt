@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <script>
+        alert ("Değişime Hoşgeldiniz :D ")
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <title>Web Page</title>
+</head>
+<body>
+    <nav>
+        <img id="logo" src="resimler/logo-removebg-preview.png" alt="">
+        <a href="#gor1">Anasayfa</a>
+        <a href="#bant2">Hakkımızda</a>
+        <a href="#gor2">Motivasyon</a>
+        <a href="#bant3">İletişim</a>
+        <img id="logo" src="resimler/logo-removebg-preview.png" alt="">
+    </nav>
+
+    <div id="gor1" class="gorsel"> 
+        <div class="anasayfa anayazi">
+            <h1>İSTEDİĞİN FİZİĞE VE İDEALLERİNE KAVUŞMAN İÇİN;</h1> <br>
+           <strong><p>Yeterli bir disiplin ve fedakarlık ile sende herkes gibi istediğin vücuda,<br> sağlıklı bir hayata, farklı bir bakış açısına bizim yardımımız ile kavuşabilirsin.</p></strong>
+        </div>
+     </div>
+       <div id="bant1" class="bant">
+           <h1>DEĞİŞİMİ İSTİYORSAN HER ZAMAN BURADAYIZ</h1> <br> <br> <br>
+          <strong> <p>Yeterli oranda ; <br>-Çalışma- <br> -Motivasyon-<br>-Fedakarlık-<br>-Azim-<br>-Düzenli Beslenme-<br> <p id="p1"> <br> </p> </strong> 
+       </div>
+    <div id="gor2" class="gorsel">
+        <div>
+            <h1>HAZIRSAN BAŞLAYALIM</h1> <br> 
+            <strong><p>Yolculuğumuz kolay olmayacak ;
+            <p>* Bazen sıkılacaksın</p>
+            <p>* Ağrı çekeceksin</p>
+            <p>* Proteinden bıkacaksın</p>
+            <p id="kazanmak">* Ama kazanacaksın</p></strong>
+ 
+    </div>
+    <div id="bant2" class="bant">
+        <h1>BİZ KİMİZ ?</h1>
+        <p>Uzun yıllar sporla hem ilgilenip hem de ileri duzeyde spor ve vucut hakkında çalısmalar yapmıs "Altug Dural" (Ankara Üniversiresi Filoloji, İstanbul üniversitesi Felsefe mezunu ve International Sport Sciences Association,National Strength Coaches Association Sertfikasyonlarının sahibi) hocamızla beraber çalısan sporu seven ve hala da gelismeye acık olup hem fiziksel hem de mental olarak destek alabileceginiz "FİT" bir topluluguz.</p>
+    </div>
+    <div id="gor3" class="gorsel"></div>
+    <div id="bant3" class="bant">
+        <img id="llogo" src="resimler/logo-removebg-preview.png" alt="">
+        <strong><h2 id="adres2">Adres</h2></strong>
+        <p id="adres">Antalya Manavgat Yukarıpazarcı Mah. Harmoni Kafenin Arkası,Irmak Tarafı</p>
+        <strong> <h2 id="comm">İletişim</h2></strong> <a href="https://www.instagram.com/altugdural/"><img id="instagram" src="resimler/instagran.png" alt="İnstagram Logo" title="Altuğ Dural İnstagram"></a> 
+        <p id="mail"><a href="mailto:someone@example.com"><img id="rsm" src="resimler/Gmail-removebg-preview.png" alt=""></a></p>
+        <nav id="nav1">
+
+        </nav>
+    </div>  
+</body>
+</html>
