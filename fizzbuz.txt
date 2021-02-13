@@ -1,0 +1,11 @@
+for sayi in range (0,100,1):#Alanımızı belirliyoruz.(0 dan yüze 1 er 1er artacak şekilde deva mediyoruz)
+    if sayi %3==0 and sayi%5==0:#Eğer sayımız hem 5 hem de 3 ile bölünür ise fizzbuzz yazılacak
+        print("Fizzbuzz")#Fizzbuzz yazdırıyoruz
+        continue#Döngümüze devam ediyoruz ve bu aşamayı pas geçtiği için sayıların yerine direk fizzbuzz yazdırıyor
+    elif sayi %3==0:#3 e bölünme kuralını tanımlıyorz
+        print("Fizz")#Fizz yazacak
+        continue#devam edip pas geçiyoruz
+    elif sayi %5==0:#5 ile bölünme kuralını tanımlıyoruz
+        print("Buzz")#Buzz yazacak
+        continue#devam edip pas geçiyoruz
+    print(sayi)#fizzbuzz değişkenimizi yazdırıyoruz
